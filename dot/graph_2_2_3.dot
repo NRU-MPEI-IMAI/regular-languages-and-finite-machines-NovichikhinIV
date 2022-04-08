@@ -1,0 +1,18 @@
+digraph graph_2_2{
+    rankdir=LR;
+
+    "" [shape = none];
+    42 [shape = doublecircle];
+    node [shape = circle];
+
+    "" -> 11 [label = "start"];  
+    11 -> 22 [label = "a, b"];
+    12 -> 21 [label = "a, b"];
+    21 -> 32 [label = "a, b"];
+    22 -> 31 [label = "a, b"];
+    31 -> 42 [label = "a, b"];
+    32 -> 41 [label = "a, b"];
+    41 -> 42 [label = "a, b"];
+    42 -> 41 [label = "a, b"];
+ 
+}

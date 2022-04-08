@@ -1,0 +1,12 @@
+digraph graph_2_2{
+    rankdir=LR;
+
+    "" [shape = none];
+    2 [shape = doublecircle];
+    node [shape = circle];
+
+    "" -> 1 [label = "start"];  
+    1 -> 2 [label = "a, b"];
+    2 -> 1 [label = "a, b"];
+
+}

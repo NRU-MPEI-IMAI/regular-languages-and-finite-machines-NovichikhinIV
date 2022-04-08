@@ -1,0 +1,10 @@
+digraph graph_1_4{
+    rankdir=LR;
+
+    "" [shape = none];
+    1 [shape = doublecircle];
+    node [shape = circle];
+
+
+    "" -> 1 [label = "start"];   
+}

@@ -1,0 +1,39 @@
+digraph graph_3_4{
+    rankdir=LR;
+
+    "" [shape = none];
+    20 [shape = doublecircle];
+    node [shape = circle];
+
+    "" -> 0 [label = "start"];  
+    0 -> 1 
+    1 -> 2 [label = "λ"];
+    1 -> 4 [label = "λ"];
+    2 -> 3 [label = "b"];
+    3 -> 6 [label = "λ"];
+    4 -> 5 [label = "c"];
+    5 -> 6 [label = "λ"];
+    6 -> 7 [label = "λ"];
+    6 -> 20 [label = "λ"];
+    7 -> 8 [label = "λ"];
+    7 -> 14 [label = "λ"];
+    8 -> 9 [label = "λ"];
+    8 -> 12 [label = "λ"];
+    9 -> 10 [label = "a"];
+    10 -> 11 [label = "b"];
+    11 -> 9 [label = "λ"];
+    11 -> 12 [label = "λ"];
+    12 -> 13 [label = "c"];
+    13 -> 19 [label = "λ"];
+    14 -> 15 [label = "λ"];
+    14 -> 18 [label = "λ"];
+    15 -> 16 [label = "b"];
+    16 -> 17 [label = "a"];
+    17 -> 15 [label = "λ"];
+    17 -> 18 [label = "λ"];
+    18 -> 19 [label = "λ"];
+    19 -> 7 [label = "λ"];
+    19 -> 20 [label = "λ"];
+
+
+}
